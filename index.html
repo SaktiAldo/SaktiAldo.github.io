@@ -1,116 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <header id="header">
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="utf-8">
-    <title>Home</title>
-    <script type="text/javascript" src="js/jQuery-2.1.4.min.js"></script>
-  	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
-      </header>
-      <body>
-        <div id="fix">
-            <ul>
-                  <img src="logoisyana.png" alt="" width="115px" style="width:50px; margin-left:10px;">
-                      <li><a href="#">KONTAK</a></li>
-                      <li><a href="#">TENTANG</a></li>
-                      <li><a href="#">BERANDA</font></a></li>
-            </ul>
-        </div>
-      <p></p>
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br>
-      <center>
-            <img src="logo.png" alt="">
-      <br>
-          <br><br><br><br><br><br><br><br><br><br><br>
-          <br><br><br><br><br>
+    <title>Isyana Keluarga - Beranda</title>
+  </head>
+  <body>
+    <div class="header">
+    <ul>
+          <img src="logoweb.png" alt="" style="width:100px; height: 50px;margin-left:10px; margin-top:10px;">
+          <li><a href="#news">KONTAK</a></li>
+          <li><a href="#contact">TENTANG</a></li>
+          <li><a href="#about">BERANDA</a></li>
+    </ul>
+    </div>
+  <br>
+  <br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br>
+  <center>
+    <img src="logo.png" alt="">
     <div class="kotak">
       <table>
         <tr>
-          <td><img src="tr.jpg" alt="" >
-            <td>
-              <div class="kataisyana">
-                <b class="isyana">Isyana Sarasvati</b> <br><br>Lahir di Bandung, 2 Mei 1993 umur 25 tahun
-                 merupakan penyanyi dan penulis lagu berkebangsaan Indonesia.
-                 Isyana merupakan lulusan dari Nanyang Academy of Fine Arts,
-                 Singapura dan Royal College of Music, Britania Raya.
-                 Isyana yang menulis sendiri semua lagunya ini juga pernah
-                 menjadi penyanyi opera di Singapura.<br><br>
-                 <button class="button button1"><a href="selengkapnya.html">SELENGKAPNYA</a></button>
-              </div></td>
-          </tr>
-
+                <td><img src="tr.jpg" alt="" >
+              <td>
+                <div class="kataisyana">
+                  <b class="isyana">Isyana Sarasvati</b> <br><br>Lahir di Bandung, 2 Mei 1993 umur 25 tahun
+                    merupakan penyanyi dan penulis lagu berkebangsaan Indonesia.
+                    Isyana merupakan lulusan dari Nanyang Academy of Fine Arts,
+                    Singapura dan Royal College of Music, Britania Raya.
+                    Isyana yang menulis sendiri semua lagunya ini juga pernah
+                    menjadi penyanyi opera di Singapura.<br><br>
+                    <button class="button button1"><a class="a" href="profil.html">SELENGKAPNYA</a></button>
+                </div>
+              </td>
         </tr>
-      </table>
+    </table>
+    </div>
+    <div class="kotaktentang">
+      TENTANG <p></p>
+      <div class="tentang">
+        Layanan Website ini adalah situs layanan sosial yang terbuka bagi
+          siapa saja untuk saling berbagi,<br>
+        anda dapat melihat situs keluarga,silsilah keluarga,<br>berbagi dan melihat foto-foto keluarga,
+        dan masih banyak lagi.
       </div>
-        <center>
-<div class="kotak2">
-  <h2>TENTANG</h2>
-  <br>
-  <div class="tentang">
-    <b>Layanan Website ini adalah situs layanan sosial yang terbuka bagi siapa saja untuk saling berbagi,<br>
-    anda dapat melihat situs keluarga,silsilah keluarga,<br>berbagi dan melihat foto-foto keluarga,
-    dan masih banyak lagi.</b>
-  </div>
-</div>
-  </center>
+    </div>
+    </center>
   </body>
-    </html>
-<style media="screen">
-a{
+</html>
+<style>
+.tentang{
+  color: white;
+  font-size: 18px;
+}
+.kotaktentang{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  width: 99%;
+  background-color: #7581D0;
+}
+.a{
   text-decoration: none;
   color: #0606FF;
 }
 a:hover{
   color: white;
-}
-.tentang{
-  color: white;
-  font-size: 18px;
-}
-h2{
-  color: white;
-  font-size: 25px;
-}
-.isyana{
-    font-size: 30px;
-  }
-.kotak2{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 99%;
-    background-color: #7581D0;
-}
-.kataisyana{
-    font-size: 20px;
-    margin: 30px;
-    margin-left: 70px;
-}
-table{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#fix{
-    position: fixed;
-    transition:ease all 1s;
-      -webkit-transition:ease all 1s;
-      -moz-transition:ease all 1s;
-      -o-transition:ease all 1s;
-}
-.darkHeader {
-  background-color:#95C6C7;
-  height: 100px;
-}
-.kotak{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 99%;
-  background-color: white;
-}
-body{
-  font-family: arial;
-  background-image: url('isyana.jpg');
-  background-size: cover;
-  background-attachment: fixed;
 }
 .button{
   width: 150px;
@@ -123,56 +80,68 @@ body{
 .button1{
   background-color: #FFFFFF;
   text-decoration: none;
-  color: #0606FF;
+  color: #6C6CFF;
 }
 .button1:hover{
   background-color: #6C6CFF;
   color: #FFFFFF;
 }
-h1{
-    font-family: arial;
-    color: #FFFFFF;
-  }
 *{
-  margin: 0;
-  padding-top: 0;
+  font-family: arial;
 }
-ul{
-  width: 1310px;
-  list-style: none;
-  padding:10px;
-  margin: 10px;
-  overflow: hidden;
-  font-size: 15px;
-}
-li{
-  float: right;
-  margin-right: 10px;
-  padding: 10px;
-  margin: 5px;
-}
-li a{
-  position: relative;
-  font-family: sans-serif;
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-li a:hover{
-  color: #A6A6FF;
-}
-  </style>
-<script type="text/javascript">
-  $(window).scroll(function() {
-
-  var scroll = $(window).scrollTop();
-
-  if (scroll >= 500) {
-      $("#fix").addClass("darkHeader");
-  } else {
-      $("#fix").removeClass("darkHeader")
+.isyana{
+    font-size: 30px;
   }
-});
-</script>
+.kataisyana{
+    font-size: 20px;
+    margin: 30px;
+    margin-left: 70px;
+}
+table{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.kotak{
+  margin-top: 310px;
+  width: 99%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 99%;
+  background-color: white;
+}
+.header{
+  position: fixed;
+  width: 100%;
+}
+body{
+  background-image: url('isyana.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    font-size: 15px;
+    font-family: arial;
+    float: right;
+    padding-top: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #eeee;
+}
+</style>
